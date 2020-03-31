@@ -1,5 +1,3 @@
-/*css styling for h1 elements*/
-
 header {
     background-image: url(../images/header_background.jpg);
     background-repeat: no-repeat;
@@ -8,6 +6,7 @@ header {
     color: black;
     border: 1px solid grey; 
 }
+
 #content {   
     float: left;
     width: 80%;
@@ -104,6 +103,8 @@ footer ul li a{
 body{
     background-color: white;
     border: 1px solid grey;
+    margin: 0px;
+    font-family: sans-serif;
 }
 footer ul li:hover{
     background-color: gray;
@@ -125,6 +126,76 @@ h2 {
 }
 p {
     padding: 5px;
+    text-align: justify;
 }
 
+.slideshow {
+    margin-left: 20%;
+    margin-right: 0%;
+    margin-bottom: 10px;
+    width: 60%;
+    height: 300px;
+}
 
+.required {
+    font-weight: bold;
+    color: red;
+}
+
+.contactForm {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+    border: solid black;
+    background: white;
+    min-height: 500px;
+}
+
+#button {
+    margin-left: 138px;
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
+}
+
+#reset {
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
+}
+
+label {
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+
+header h1 {
+    position: relative;
+    top: 10px;
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+}
+
+input[type="radio"]{
+    width: 10px;
+}
+
+input[type="checkbox"]{
+    width: 15px;
+}
+
+em {
+    font-style: italic;
+    color: black;
+}
