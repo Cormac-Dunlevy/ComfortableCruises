@@ -15,6 +15,7 @@ header {
     background-color: white;
     color: black;
     text-align: justify;
+    font-family: sans-serif;
 }
 nav {
     background-color: white;
@@ -57,7 +58,8 @@ aside ul li a{
     float: left;
     column-count: 2;
     column-rule: 1px solid black;
-    column-gap: 50px;
+    column-gap: 15px;
+    max-height: 340px;
     padding: 2px;
 }
 footer {
@@ -95,8 +97,8 @@ footer ul li a{
     height: 200px;
 }
 .frontimage{
-    width: 50%;
-    height: 300px;
+    width: 95%;
+    height: 250px;
     float: left;
     padding: 5px;
 }
@@ -198,4 +200,13 @@ input[type="checkbox"]{
 em {
     font-style: italic;
     color: black;
+}
+
+.homeHeader {
+    float: right;
+}
+
+h3 {
+    padding: 5px;
+    text-align: center;
 }
